@@ -1,0 +1,95 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gilroy', sans-serif;
+    /* font-family: 'Plus Jakarta Sans', sans-serif; */
+}
+
+footer{
+    font-family: 'Inter', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1720px;
+}
+
+
+/* Header Start */
+
+.bgBanner{
+    background-image: url("../assets/bannerbg.png");
+}
+
+.navbar {
+    padding: 47px 0 11px 0;
+}
+
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--boo);
+    padding: 0;
+}
+
+.navbar-nav {
+    gap: 52px;
+}
+
+.nav-link:hover {
+    color: #A89B8A;
+}
+
+.nav-link:active {
+    color: #DCD2C4;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+:focus-visible {
+    outline: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* Header End */
+
