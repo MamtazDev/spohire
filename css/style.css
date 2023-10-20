@@ -44,6 +44,13 @@ a {
     max-width: 1720px;
 }
 
+.mb_40 {
+    margin-bottom: 35px;
+}
+
+.all_mb {
+    margin-bottom: 135px;
+}
 
 /* Header Start */
 
@@ -96,27 +103,142 @@ a {
 }
 
 .authBtn {
-    /* padding: 15px 35px;
-    border: 1px solid transparent; */
-   background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 3px, transparent 3px) 0% 0%/8px 8px no-repeat,
-        radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px) 100% 0%/8px 8px no-repeat,
-        radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px) 0% 100%/8px 8px no-repeat,
-        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100% 100%/8px 8px no-repeat,
-        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 16px) no-repeat,
-        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 10px) no-repeat,
-        linear-gradient(126deg, transparent 0%, #7546d0 97%),
-        linear-gradient(130deg, transparent 0%, #319cf1 100%),
-        linear-gradient(224deg, transparent 0%, #fe1caf 100%),
-        linear-gradient(90deg, transparent 0%, #fed690 98%);
+    background-image:
+        radial-gradient(circle at 100% 100%, transparent 15px, #d50000 15px, #d50000 20px, transparent 20px),
+        linear-gradient(to right, #d50000, #304ffe),
+        radial-gradient(circle at 0% 100%, transparent 15px, #304ffe 15px, #304ffe 20px, transparent 20px),
+        linear-gradient(to bottom, #304ffe, #00bfa5),
+        radial-gradient(circle at 0% 0%, transparent 15px, #00bfa5 15px, #00bfa5 20px, transparent 20px), linear-gradient(to left, #00bfa5, #ffd600),
+        radial-gradient(circle at 100% 0%, transparent 15px, #ffd600 15px, #ffd600 20px, transparent 20px),
+        linear-gradient(to top, #ffd600, #d50000);
 
-    border-radius: 37px;
-    box-sizing: border-box;
+
+    background-size: 20px 20px, calc(100% - 40px) 5px, 20px 20px, 5px calc(100% - 40px);
+    background-position: top left, top center, top right, center right, bottom right, bottom center, bottom left, center left;
+    background-repeat: no-repeat;
 }
 
-.authBtn button{
+.authBtn button,
+.logIn {
     background: transparent;
     border: none;
     padding: 15px 35px;
+    color: #FFF;
+    font-family: 'Gilroy', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: uppercase;
+    transition: 0.4s ease-in-out;
+}
+
+.authBtn button:hover,
+.logIn:hover {
+    opacity: .9;
 }
 
 /* Header End */
+
+
+/* Banner Start */
+
+
+.banner .bannerContent {
+    padding-top: 200px;
+}
+
+.banner .bannerContent span {
+    display: inline-block;
+    padding: 12px 26px;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.banner .bannerContent h1 {
+    color: #FFF;
+    font-size: 82px;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -0.82px;
+}
+
+.banner .bannerContent p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 180%;
+    margin-bottom: 40px;
+}
+
+.banner .bannerContent a {
+    display: inline-block;
+    padding: 25px 54px;
+    border-radius: 60px;
+    background: #3378FF;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
+    transition: 0.4s ease-in-out;
+}
+
+.banner .bannerContent a:hover {
+    opacity: 0.9;
+}
+
+
+.marque-container {
+    display: flex;
+    padding: 1vw 0 0.7vw;
+}
+
+
+.playTxt {
+    border-radius: 50px;
+    padding: 21px 50px;
+}
+
+.playTxt span {
+    color: #0A0119;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 20px;
+    white-space: nowrap;
+}
+
+.middleLine {
+    width: 30px;
+    height: 5px;
+    background-color: #0A0119;
+}
+
+.playTxt span::before{
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #0A0119;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+
+
+
+
+/* Banner End */
