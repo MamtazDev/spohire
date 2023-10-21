@@ -208,21 +208,24 @@
                         <button>Manager/Agent</button>
                     </div>
 
-                    <div class="row">
-                        <div class="col-12 col-lg-6">
+                    <div class="row gy-4">
+                        <div class="col-12 col-xl-6">
                             <div class="d-flex flex-column gap-4 h-100">
-                                <div class="innerWhiteBox d-flex justify-content-center align-items-center gap-2 w-100">
-                                    <div class="local">
+                                <div
+                                    class="innerWhiteBox d-flex flex-column flex-lg-row justify-content-center align-items-center gap-2 w-100">
+                                    <div class="local d-flex flex-column align-items-center align-items-lg-start">
                                         <p class="mb-2">
                                             Local News, Teams & Players
                                         </p>
                                         <button class="d-block">Allow Location</button>
+
                                     </div>
                                     <img class="img-fluid" src="./assets/local1.png" alt="img">
                                     <img class="img-fluid" src="./assets/local2.png" alt="img">
                                 </div>
 
-                                <div class="innerWhiteBox d-flex justify-content-center align-items-center gap-2 w-100">
+                                <div
+                                    class="innerWhiteBox d-flex flex-column flex-lg-row justify-content-center align-items-center gap-2 w-100">
                                     <div class="playerBox">
                                         <p class="mb-2">
                                             Robert Lewandowski
@@ -253,7 +256,8 @@
                                     </div>
                                 </div>
 
-                                <div class="leftBlueBox d-flex justify-content-between align-items-start">
+                                <div
+                                    class="leftBlueBox d-flex flex-column-reverse flex-lg-row  justify-content-between align-items-start gap-4">
                                     <div class="d-flex flex-column gap-4">
                                         <div class="d-flex justify-content-start gap-2 align-items-center">
                                             <div class="numTag ">
@@ -284,7 +288,7 @@
                             </div>
                         </div>
 
-                        <div class="col-12 col-lg-6">
+                        <div class="col-12 col-xl-6">
                             <div class="howWorkRight h-100">
                                 <div class="ps-2">
                                     <p>Sign Up</p>
@@ -295,7 +299,8 @@
 
                                 <form>
                                     <div class="d-flex flex-column justify-content-start gap-3">
-                                        <div class="txtInput d-flex justify-content-between align-items-center">
+                                        <div
+                                            class="txtInput d-flex flex-column flex-md-row justify-content-between align-items-center">
                                             <div>
                                                 <label for="fName">First Name</label>
                                                 <input type="text" name="firstName" id="fName">
@@ -305,7 +310,8 @@
                                                 <input type="text" name="lastName" id="lName">
                                             </div>
                                         </div>
-                                        <div class="txtInput d-flex justify-content-between align-items-center">
+                                        <div
+                                            class="txtInput d-flex flex-column flex-md-row justify-content-between align-items-center">
                                             <div>
                                                 <label for="email">Email Address</label>
                                                 <input type="email" name="email" id="email">
@@ -319,7 +325,7 @@
                                             <p>
                                                 Kind Of Sports
                                             </p>
-                                            <div class="d-flex justify-content-start gap-4">
+                                            <div class="d-flex flex-column flex-md-row justify-content-start gap-4">
                                                 <div class="playOption">
                                                     <div>
                                                         <input type="radio" name="football" id="football">
@@ -359,7 +365,7 @@
                                         </div>
                                         <div>
                                             <p>You</p>
-                                            <div class="d-flex justify-content-start gap-4">
+                                            <div class="d-flex flex-column flex-md-row justify-content-start gap-4">
                                                 <div class="playOption">
                                                     <div>
                                                         <input type="radio" name="player" id="player">
@@ -395,14 +401,110 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-
             </section>
         </div>
         <!-- How it works End -->
 
+        <!-- What people say Start -->
+        <section>
+            <div class="container say_container all_mb">
+                <div>
+                    <div class="sayHeader">
+                        <p class="mb-3">What people say</p>
+                        <span class="d-block">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit soldin.
+                        </span>
+                    </div>
+                    <div class="row gy-3">
+                        <div class="col-12 col-md-6">
+                            <div class="sayInnerBox">
+                                <div class="d-flex justify-content-start align-items-center gap-3 mb-3">
+                                    <img class="profoleImg" src="./assets/profoleimg.png" alt="Profile" />
+                                    <div>
+                                        <p>Joe Elia</p>
+                                        <span>User Interface Design</span>
+                                    </div>
+                                </div>
+                                <h5 class="mb-5">
+                                    “In urna, non nisl tincidunt gravida elementum turpis. Risus, ac ultrices tincie
+                                    quam
+                                    arcu odio volutpat.”
+                                </h5>
+                                <div
+                                    class="d-flex flex-column flex-md-row justify-content-start align-items-center gap-3">
+                                    <img src="./assets/google.png" alt="Logo" />
+                                    <div
+                                        class="g_review d-flex flex-column flex-lg-row justify-content-start align-items-start align-items-lg-center gap-1">
+                                        <span>A 5.00</span>
+                                        <div class="d-flex align-items-center gap-1">
+                                            <img src="./assets/star.png" alt="star">
+                                            <img src="./assets/star.png" alt="star">
+                                            <img src="./assets/star.png" alt="star">
+                                            <img src="./assets/star.png" alt="star">
+                                            <img src="./assets/star.png" alt="star">
+                                        </div>
+                                        <span>previews from Elia Joe</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="col-12 col-md-6">
+                            <div class="sayInnerBox sayRightbox" style=" border: 40px solid #0177FB;">
+                                <button>
+                                    <img src="./assets/sliderbutton.png" alt="Slider">
+                                </button>
+                                <div class="d-flex justify-content-start align-items-center gap-3 mb-3">
+                                    <img class="profoleImg" src="./assets/profoleimg.png" alt="Profile" />
+                                    <div>
+                                        <p>Joe Elia</p>
+                                        <span>User Interface Design</span>
+                                    </div>
+                                </div>
+                                <h5 class="mb-5">
+                                    “In urna, non nisl tincidunt gravida elementum turpis. Risus, ac ultrices tincie
+                                    quam
+                                    arcu odio volutpat.”
+                                </h5>
+                                <div
+                                    class="d-flex flex-column flex-md-row justify-content-start align-items-center gap-3">
+                                    <img src="./assets/google.png" alt="Logo" />
+                                    <div
+                                        class="g_review d-flex flex-column flex-lg-row justify-content-start align-items-start align-items-lg-center gap-1">
+                                        <span>A 5.00</span>
+                                        <div class="d-flex align-items-center gap-1">
+                                            <img src="./assets/star.png" alt="star">
+                                            <img src="./assets/star.png" alt="star">
+                                            <img src="./assets/star.png" alt="star">
+                                            <img src="./assets/star.png" alt="star">
+                                            <img src="./assets/star.png" alt="star">
+                                        </div>
+                                        <span>previews from Elia Joe</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- What people say End -->
+
+        <!-- Trusted by Greatest Companies Start -->
+        <section>
+            <div class="container say_container all_mb">
+                <p class="trustContent mb-5">Trusted by Greatest Companies</p>
+                <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center gap-3">
+                    <img src="./assets/trustCompany1.png" alt="Logo">
+                    <img src="./assets/trustCompany2.png" alt="Logo">
+                    <img src="./assets/trustCompany3.png" alt="Logo">
+                    <img src="./assets/trustCompany4.png" alt="Logo">
+                    <img src="./assets/trustCompany5.png" alt="Logo">
+                </div>
+            </div>
+        </section>
+        <!-- Trusted by Greatest Companies End -->
 
 
     </main>

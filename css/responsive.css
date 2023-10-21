@@ -1,6 +1,13 @@
 @media only screen and (max-width:1024px) {}
+
 @media only screen and (max-width:992px) {}
+
 @media only screen and (max-width:768px) {
+
+    .all_mb {
+        margin-bottom: 60px;
+    }
+
     .mb_60 {
         margin-bottom: 35px;
     }
@@ -8,6 +15,7 @@
     .banner .bannerContent {
         padding-top: 60px;
     }
+
     .banner .bannerContent span {
         font-size: 12px;
         margin-bottom: 15px;
@@ -35,7 +43,9 @@
         font-size: 18px;
     }
 
-    .feature .featureBoxStart , .feature .featureBoxMiddle,  .feature .featureBoxEnd{
+    .feature .featureBoxStart,
+    .feature .featureBoxMiddle,
+    .feature .featureBoxEnd {
         padding: 15px 0 0 15px;
 
     }
@@ -47,11 +57,80 @@
     .feature .featureBottom p {
         font-size: 14px;
     }
+
+    .workBg {
+        padding: 60px 0 100px 0;
+    }
+
+    .workBg h3 {
+        color: #FFF;
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+
+    .workBg .tabOutter button {
+        padding: 15px 34px;
+        font-size: 18px;
+    }
+
+    .workBg .local p {
+        font-size: 25px;
+    }
+
+    .workBg .leftBlueBox {
+        padding: 30px 40px;
+    }
+
+    .workBg .connect p,
+    .numTag p,
+    .workBg .howWorkRight form p,
+    .sayInnerBox h5 {
+        font-size: 20px;
+    }
+
+    .workBg .connect span,
+    .workBg .howWorkRight span,
+    .sayHeader span {
+        font-size: 18px;
+    }
+
+    .workBg .howWorkRight p {
+        font-size: 28px;
+    }
+
+    .workBg .howWorkRight form .txtInput label {
+        font-size: 16px;
+    }
+
+    .numTag {
+        width: 50px;
+        height: 50px;
+    }
+
+    .sayHeader p {
+        font-size: 50px;
+        line-height: 1.5;
+    }
+
+    .trustContent {
+        font-size: 25px;
+    }
+
+
 }
-@media only screen and (max-width:600px) {}
-@media only screen and (max-width:425px){}
+
+@media only screen and (max-width:600px) {
+    .sayRightbox button {
+        top: -100px;
+        left: 30%;
+    }
+}
+
+@media only screen and (max-width:425px) {}
+
 @media only screen and (max-width:375px) {}
-@media only screen and (max-width:320px){
+
+@media only screen and (max-width:320px) {
     .banner .bannerContent span {
         font-size: 10px;
         line-height: 20px;

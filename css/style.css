@@ -48,6 +48,10 @@ a {
     max-width: 1472px;
 }
 
+.say_container {
+    max-width: 1320px;
+}
+
 .mb_40 {
     margin-bottom: 35px;
 }
@@ -115,19 +119,9 @@ a {
 }
 
 .authBtn {
-    background-image:
-        radial-gradient(circle at 100% 100%, transparent 15px, #d50000 15px, #d50000 20px, transparent 20px),
-        linear-gradient(to right, #d50000, #304ffe),
-        radial-gradient(circle at 0% 100%, transparent 15px, #304ffe 15px, #304ffe 20px, transparent 20px),
-        linear-gradient(to bottom, #304ffe, #00bfa5),
-        radial-gradient(circle at 0% 0%, transparent 15px, #00bfa5 15px, #00bfa5 20px, transparent 20px), linear-gradient(to left, #00bfa5, #ffd600),
-        radial-gradient(circle at 100% 0%, transparent 15px, #ffd600 15px, #ffd600 20px, transparent 20px),
-        linear-gradient(to top, #ffd600, #d50000);
-
-
-    background-size: 20px 20px, calc(100% - 40px) 5px, 20px 20px, 5px calc(100% - 40px);
-    background-position: top left, top center, top right, center right, bottom right, bottom center, bottom left, center left;
+    background-image: url("../assets/signinBtn.png");
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .authBtn button,
@@ -318,6 +312,7 @@ a {
     background-position: center;
     background-size: cover;
     padding: 100px 0 200px 0;
+    margin-bottom: 90px;
 }
 
 
@@ -345,9 +340,9 @@ a {
     padding: 20px 65px;
     color: #cfced7;
     text-align: center;
-    font-size: 23.95px;
+    font-size: 24px;
     font-weight: 500;
-    line-height: 23.95px;
+    line-height: 23px;
     transition: 0.4s ease-in-out;
 }
 
@@ -381,7 +376,12 @@ a {
     text-align: center;
     font-size: 21px;
     font-weight: 700;
-    line-height: 21.289px;
+    line-height: 21px;
+    transition: 0.4s ease-in-out;
+}
+
+.workBg .local button:hover {
+    opacity: 0.9;
 }
 
 .workBg .playerBox p {
@@ -587,3 +587,95 @@ a {
 /* custom radio button end */
 
 /* Hoe it Works End */
+
+/* What people say Start */
+
+.sayHeader {
+    margin-bottom: 70px;
+}
+
+.sayHeader p {
+    color: #2D2D2D;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-size: 68px;
+    font-weight: 600;
+    line-height: 75px;
+    letter-spacing: -2.046px;
+    text-align: center;
+}
+
+.sayHeader span {
+    color: #818181;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.455px;
+}
+
+.sayInnerBox {
+    border: 40px solid #F17415;
+    padding: 62px 54px;
+}
+
+.sayInnerBox .profoleImg {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+
+.sayInnerBox p {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.sayInnerBox span {
+    color: #717a89;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.sayInnerBox h5 {
+    color: #2D2D2D;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: -0.606px;
+}
+
+.g_review span {
+    color: #666;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.sayRightbox {
+    position: relative;
+}
+
+.sayRightbox button {
+    position: absolute;
+    top: 40%;
+    left: -57px;
+    border: none;
+    background: transparent;
+}
+
+/* What people say End */
+
+
+/* Trusted by Greatest Companies Start  */
+.trustContent {
+    color: #8386A7;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 34px;
+}
