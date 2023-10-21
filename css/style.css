@@ -13,9 +13,6 @@ body {
     /* font-family: 'Plus Jakarta Sans', sans-serif; */
 }
 
-footer {
-    font-family: 'Inter', sans-serif !important;
-}
 
 h1,
 h2,
@@ -122,9 +119,15 @@ a {
     background-image: url("../assets/signinBtn.png");
     background-repeat: no-repeat;
     background-position: center;
+    /* background-size: cover; */
 }
 
-.authBtn button,
+.authBtn.btnNone {
+    background-color: transparent;
+    border: none;
+}
+
+.authBtn a,
 .logIn {
     background: transparent;
     border: none;
@@ -668,9 +671,6 @@ a {
     background: transparent;
 }
 
-/* What people say End */
-
-
 /* Trusted by Greatest Companies Start  */
 .trustContent {
     color: #8386A7;
@@ -679,3 +679,80 @@ a {
     font-weight: 700;
     line-height: 34px;
 }
+
+/* What people say End */
+
+/* Footer Start */
+
+footer {
+    background: url("../assets/footerBg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0 30px 0;
+    font-family: 'Inter', sans-serif !important;
+}
+
+
+footer p {
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+
+
+footer ul li:first-child {
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+footer ul li a {
+    display: block;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 20px !important;
+    transition: 0.4s ease-in-out;
+}
+
+footer ul li a:hover {
+    color: #F5F3FA;
+}
+
+.followBox {
+    white-space: nowrap;
+    padding: 32px;
+    border-radius: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.followBox a {
+    width: 64.276px;
+    height: 64.276px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer hr {
+    margin-top: 50px;
+    color: #0A0119;
+}
+
+.fooBottom a {
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.fooBottom a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+/* Footer End */

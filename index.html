@@ -44,9 +44,9 @@
                             </ul>
                             <form class="d-flex flex-column flex-lg-row align-items-center gap-2">
                                 <button class="logIn">Log in</button>
-                                <div class="authBtn">
-                                    <button type="submit">Sign Up</button>
-                                </div>
+                                <button class="authBtn btnNone">
+                                    <a href="#signUp" type="submit">Sign Up</a>
+                                </button>
                             </form>
                         </div>
                     </div>
@@ -198,7 +198,7 @@
 
         <!-- How it works Start -->
         <div class="workBg">
-            <section>
+            <section id="signUp">
                 <div class="container Work_container">
                     <h3>How it works</h3>
                     <div
@@ -496,11 +496,11 @@
             <div class="container say_container all_mb">
                 <p class="trustContent mb-5">Trusted by Greatest Companies</p>
                 <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center gap-3">
-                    <img src="./assets/trustCompany1.png" alt="Logo">
-                    <img src="./assets/trustCompany2.png" alt="Logo">
-                    <img src="./assets/trustCompany3.png" alt="Logo">
-                    <img src="./assets/trustCompany4.png" alt="Logo">
-                    <img src="./assets/trustCompany5.png" alt="Logo">
+                    <img class="img-fluid" src="./assets/trustCompany1.png" alt="Logo">
+                    <img class="img-fluid" src="./assets/trustCompany2.png" alt="Logo">
+                    <img class="img-fluid" src="./assets/trustCompany3.png" alt="Logo">
+                    <img class="img-fluid" src="./assets/trustCompany4.png" alt="Logo">
+                    <img class="img-fluid" src="./assets/trustCompany5.png" alt="Logo">
                 </div>
             </div>
         </section>
@@ -511,7 +511,66 @@
 
     <footer>
         <div class="container">
+            <div class="row gy-5">
+                <div class="col-12 col-lg-3 text-center">
+                    <img class="mx-auto" src="./assets/footerLogo.png" alt="LOGO">
+                </div>
+                <div class="col-12 col-lg-3">
+                    <ul class="text-center text-lg-start">
+                        <li>Info</li>
+                        <li><a href="#">How it works</a></li>
+                        <li><a href="#"> About us</a></li>
+                    </ul>
+                </div>
 
+                <div class="col-12 col-lg-2">
+                    <ul class="text-center text-lg-start">
+                        <li>
+                            Contact
+                        </li>
+                        <li>
+                            <a href="#">
+                                spohire@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                +48 565 25 654
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                +12 485 54684
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <div></div>
+                    <div class="followBox d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+                        <p>Follow us</p>
+                        <a href="#">
+                            <img src="./assets/ig.png" alt="Instagram">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/fb.png" alt="FaceBook">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/linkedin.png" alt="LinkedIn">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/twitter.png" alt="Twitter">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="fooBottom d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3 gap-lg-5">
+                <a href="#">Privacy policy</a>
+                <a href="#">Terms & condition</a>
+                <a href="#">AMSL All Right Reserved</a>
+            </div>
         </div>
     </footer>
 
