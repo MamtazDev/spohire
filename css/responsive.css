@@ -1,4 +1,25 @@
-@media only screen and (max-width:1024px) {}
+@media only screen and (max-width:1024px) {
+    .navbar-nav {
+        gap: 20px;
+    }
+
+    .banner .bannerContent {
+        padding-top: 130px;
+    }
+
+    .banner .bannerContent h1 {
+        font-size: 45px;
+    }
+
+    .followBox {
+        padding: 20px;
+    }
+
+    .workBg h3 {
+        font-size: 65px;
+        margin-bottom: 10px;
+    }
+}
 
 @media only screen and (max-width:992px) {}
 
@@ -28,8 +49,9 @@
         margin-bottom: 15px;
     }
 
-    .banner .bannerContent h1 {
-        font-size: 45px;
+    .workBg h3 {
+        font-size: 50px;
+        margin-bottom: 10px;
     }
 
     .banner .bannerContent p {
@@ -69,11 +91,7 @@
         padding: 60px 0 100px 0;
     }
 
-    .workBg h3 {
-        color: #FFF;
-        font-size: 50px;
-        margin-bottom: 10px;
-    }
+    
 
     .workBg .tabOutter button {
         padding: 15px 34px;
