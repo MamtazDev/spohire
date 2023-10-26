@@ -105,6 +105,16 @@ a {
   font-weight: 500;
 }
 
+.fs_15{
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.fs_17{
+  font-size: 17px;
+  font-weight: 400;
+}
+
 .f_gilroy {
   font-family: 'Gilroy', sans-serif;
 }
@@ -179,6 +189,16 @@ a {
   border: 1px solid #DFE5F1;
   background: #FFF;
   padding: 31px 24px;
+  position: relative;
+}
+
+.personalInfo .message{
+  border: none;
+  background: transparent;
+  position: absolute;
+  top: -40px;
+  right: 0;
+
 }
 
 /* Job Offers End */
