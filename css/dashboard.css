@@ -1,0 +1,184 @@
+@import url('https://fonts.cdnfonts.com/css/css2?family=gilroy:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.cdnfonts.com/css/css2?family=sf-pro-display:wght@200;300;400;500;600;700;800&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gilroy', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  /* list-style: none; */
+  padding: 0;
+}
+
+ul li {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --color_19: #0A0119;
+  --color_19_7: #0a01195e;
+  --color_36: #141736;
+  --color_cb: #A5B4CB;
+  --color_f1: #DFE5F1;
+}
+
+.container {
+  max-width: 1720px;
+}
+
+.Work_container {
+  max-width: 1472px;
+}
+
+.say_container {
+  max-width: 1320px;
+}
+
+
+.mb_40 {
+  margin-bottom: 35px;
+}
+
+.mb_60 {
+  margin-bottom: 55px;
+}
+
+.all_mb {
+  margin-bottom: 130px;
+}
+
+.fs_14 {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.fs_32 {
+  font-size: 32px;
+  line-height: 42px;
+}
+
+.fs_62 {
+  font-size: 62px;
+  line-height: 72px;
+}
+
+.fs_82 {
+  font-size: 82px;
+  line-height: 92px;
+}
+
+.fs_40{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.fs_28{
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.fs_18{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.f_gilroy {
+  font-family: 'Gilroy', sans-serif;
+}
+
+.f_sfPro {
+  font-family: 'SF Pro Display', sans-serif;
+                                                
+}
+
+.text_color_19 {
+  color: var(--color_19);
+}
+
+.text_color_19_7 {
+  color: var(--color_19_7);
+}
+
+.text_color_36 {
+  color: var(--color_36);
+}
+
+.text_color_cb {
+  color: var(--color_cb);
+}
+
+.text_color_f1 {
+  color: var(--color_f1);
+}
+
+.section_padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section_heading {
+  margin-bottom: 80px;
+}
+
+.common_btn a {
+  display: inline-block;
+  padding: 25px 54px;
+  border-radius: 60px;
+  background: #3378FF;
+  color: #FFF;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-transform: uppercase;
+  transition: 0.4s ease-in-out;
+}
+
+.common_btn a:hover {
+  opacity: 0.9;
+}
+
+
+
+/* Job Offers Start */
+
+.job_offer {
+  background-image: url("../assets/jobofferBg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+  padding: 100px 45px 50px 75px;
+}
+
+
+.personalInfo {
+  border-radius: 16px;
+  border: 1px solid #DFE5F1;
+  background: #FFF;
+  padding: 31px 24px;
+}
+
+/* Job Offers End */

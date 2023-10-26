@@ -39,6 +39,36 @@ a {
     text-decoration: none;
 }
 
+:root {
+    --color_19: #0A0119;
+    --color_19_7: #0a01195e;
+    --color_36: #141736;
+    --color_cb: #A5B4CB;
+    --color_f1: #DFE5F1;
+}
+
+
+.text_color_19 {
+    color: var(--color_19);
+}
+
+.text_color_19_7 {
+    color: var(--color_19_7);
+}
+
+.text_color_36 {
+    color: var(--color_36);
+}
+
+.text_color_cb {
+    color: var(--color_cb);
+}
+
+.text_color_f1 {
+    color: var(--color_f1);
+}
+
+
 .container {
     max-width: 1720px;
 }
@@ -758,3 +788,5 @@ footer hr {
 }
 
 /* Footer End */
+
+
